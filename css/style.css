@@ -9,13 +9,17 @@
     display: flex;
     justify-content: center;
     font-family: 'Space Mono', monospace;
-   
-    background-color: #eb252d;
+    background-color: #5a2b1b;
+    color: #ffffff;
+    padding: 5px 5px 5px ;
+    
 }
 
 #nav_link{
-    font-family: 'Montez';
-    font-size: 200%;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 150%;
+    background-color:#eb252d;
+    padding: 10px 25px 10px;
     
 }
 
