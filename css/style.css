@@ -1,0 +1,22 @@
+/* Café #5a2b1b
+   Rojo #eb252d
+   Amarillo #fde024
+   Verde #4aaf45 */
+
+
+
+.reservas{
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+   
+    background-color: #eb252d;
+}
+
+#nav_link{
+    font-family: 'Montez';
+    font-size: 200%;
+    
+}
+
+
