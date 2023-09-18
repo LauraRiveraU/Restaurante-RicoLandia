@@ -48,7 +48,7 @@
                </ul>
             </div>
 
-            <i class="fa-solid fa-2x fa-street-view" style="color: #000000;"></i>
+            <a class="nav-link" href="https://goo.gl/maps/qSxCtgDvchnpGTs4A" target="_blank"><i class="fa-solid fa-2x fa-street-view" style="color: #000000;"></i></a>
         </nav>
         
     </header>
@@ -93,7 +93,153 @@
     <span class="visually-hidden">Next</span>
   </button>
     </div>
+
+    <!--Carta -->
+     <div class="grupo-1">
+       <div class="box">
+        <figure>
+           <a href="">
+             <img src="img/Carta SIN FONDO.png" alt="carta">
+          </a>
+        </figure>
+      </div>
+      <div class="box">
+        <h2>Nuestra Carta Online </h2>
+        <p>¡Antójate!</p>
+        <a href="" target="_blank" class="btn btn-light carta-btn">Carta</a>
+      </div>
+    </div>
+
+    <!--Slayer de videos -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video src="img/Inicio.mp4" controls  class="d-block w-100" alt="..." width="640" height="480"></video>
+        </div>
+        <div class="carousel-item">
+          <video src="img/CAFER.mp4" controls  class="d-block w-100" alt="..." width="640" height="480"></video>
+        </div>
+        <div class="carousel-item">
+          <video src="img/Platos1.mp4" controls  class="d-block w-100" alt="..." width="640" height="480"></video>
+        </div>
+      </div>
+    </div>
+    <!--formulario-->
+    <section id="Contacto" class="container">
+      <h2> Reservas </h2>
+       <!--se utiliza la etiqueta form-->
+        <form action="mailton:canaldea00@gmail.com" method="post">
+          <div>
+           <!--imput para digitar el nombre-->
+           <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" required>
+          </div>
+
+          <div>
+           <!-- input para digitar el Apellido -->
+           <input type="text" name="Apellido" id="Apellido" placeholder="Apellido" required>
+          </div>
+
+          <div>
+           <!-- input para digitar el email-->
+           <input type="email" name="email" id="email" placeholder="Correo" required>
+          </div>
+
+          <div>
+            <!-- input para digitar el celular-->
+            <input type="number" name="celular" id="celular" placeholder= "Número de Contacto" required>
+           </div>
+
+           <div>
+            <!-- input para digitar la fecha-->
+            <input type="date" name="Fecha" id="fecha" placeholder= "Fecha de la reserva" required>
+           </div>
+
+
+           <div>
+            <!-- input para digitar el asunto-->
+            <input type="text" name="asunto" id="asunto" placeholder="Asunto" required>
+           </div>
+
+           <div>
+            <!-- Para escribir párrafos-->
+            <textarea name="Sugerencias" id="Sugerencia" cols="30" placeholder="Detalla el asunto" required></textarea>
+           </div>
+
+           <!--botones de enviar o canclear-->
+           <button type="submit" value="ENVIAR" class="btn btn-primary">Enviar</button>
+          <button type="reset" value="CANCELAR" class="btn btn-warning">Cancelar</button>
+
+      </form>
+      
+   </section>  
    
+   <!--Footer  -  BEM en HTML y CSS-->
+   <footer id="page-footer">
+    <div class="ftcontainer">
+      <div class="footer__menu">
+        <figure>
+          <img src="Img/logo-Administracion-Ricolandia ICO.ico" alt="" class="footer__logo">
+        </figure>
+        <p class="ft-social-row">
+          
+             <a class="ft-social" href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" style="color: #0f62f0;"></i></a>
+             <a class="ft-social" href="https://wa.me/3108281511?text=%C2%A1Hola!%0AQuieres%20saber%20m%C3%A1s%20de%20nosotros%20no%20dudes%20en%20escribirnos%20" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #00e676;"></i></a>
+             <a class="ft-social" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" style="color: #f86ded;"></i></a>
+             <a class="ft-social" href="https://www.tiktok.com/login?lang=es" target="_blank"><i class="fa-brands fa-tiktok" style="color: #000;"></i></a>
+             <a class="ft-social" href="https://wa.me/3108281511?text=Tienda!!" target="_blank"><i class="fa-brands fa-youtube" style="color: #f20808;"></i></a>
+             <a class="ft-social" href="https://wa.me/3108281511?text=Tienda!!" target="_blank"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i></a>
+        </p>
+      </div>
+      <!-- Horarios-->
+      <div class="footer__menu">
+        <h4 class="footer__title">Horarios</h4>
+        <span class="footer__info">
+          Lunes a Viernes: 08:00 AM a 05:00 PM | Sábado: 08:00 AM a 12:00 PM
+        </span>
+      </div>
+      <!--Enlaces-->
+      <div class="footer__menu">
+        <h4 class="footer__title">Enlaces</h4>
+        <ul class="ft-link">
+          <li class="footer__link">
+          <a href="#" target="_blank" class="ft-social">Inicio</a>
+        </li>
+          <li class="footer__link">
+            <a href="nosotros.html" target="_blank" class="ft-social">Nosotros</a>
+          </li>
+          <li class="footer__link">
+            <a href="condiciones.html" target="_blank" class="ft-social">Terminos y condiciones</a>
+          </li>
+          <li class="footer__link">
+            <a href="Contactanos.html" target="_blank" class="ft-social">Contactanos</a>
+          </li>
+          
+        </ul>
+      </div>
+      <!--Contactos-->
+      <div class="footer__menu">
+        <h4 class="footer__title">Contactos</h4>
+        <p class="footer__info">
+          <i class="fa-solid fa-at"></i>
+          Email: admonrestaurantericolandia@gmail.com
+        </p>
+        <p class="footer__info">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          Celular: 3136721597  3166169933
+        </p>
+        <p class="footer__info">
+          <i class="fa-solid fa-map-location-dot"></i>
+          Dirección: Km 17 Vereda La China-Via San Pedro De Los Milagros
+        </p>
+      </div>
+    </div>
+    <div class="footer-credits">
+      &copy; 2023. Restaurante Ricolandia - All rights reserved - Desing <a href="#" target="_blank">Laura Alejandra and Miguel Gomez</a>
+    </div>
+
+
+
+</footer>
     
 
     <!--JS Bootstrap-->
