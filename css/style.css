@@ -88,17 +88,39 @@
 }
 
 
+
+/* Slider Videos */
+
+#carouselExampleSlidesOnly{
+    padding: 10px;
+}
+
+
+
+
+
 /* Formulario */
 #Contacto{
     width: 100%;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 60px;
     /*margin: 15px auto;
      background-color: #72d2ec;
      background-image: url(/img/FondoContacto.png);*/
      background-size: cover;
+     background-color: #4aaf45;
+     padding: 30px;
+}
+
+#nombre{
     
- }
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+
+  
 
 
  /*  Footer */
@@ -150,7 +172,7 @@
     color: #ffffff;
     border-radius: 50%;
     height: auto;
-    width: 15px;
+    width: 40px;
     display: inline-block;
     font-size: 14px;
     line-height: inherit;
@@ -201,7 +223,25 @@
 
 /*Nosotros*/
 
-.alto-img{
-    padding-top: 75px 0;
-    margin-top: 150px;
+.nuestra{
+    font-family: 'Martian Mono', monospace;
+    text-align: center;
+    padding: 40px;
+
+}
+
+#card-card{
+    font-family: 'Martian Mono', monospace;
+}
+
+/*Contactanos*/
+
+.r-sociales{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Texturina', serif;
+}
+
+.r-sociales a{
+    width: 200px;
 }
