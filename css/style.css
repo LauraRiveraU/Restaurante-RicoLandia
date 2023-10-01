@@ -87,6 +87,11 @@
     margin-top: 50px;
 }
 
+.menu2{
+    margin-left: 230px;
+
+}
+
 
 
 /* Slider Videos */
@@ -99,7 +104,7 @@
 
 
 
-/* Formulario */
+/* Formulario Index*/
 #Contacto{
     width: 100%;
     text-align: center;
@@ -113,7 +118,6 @@
 }
 
 #nombre{
-    
     margin-top: 50px;
     margin-left: 100px;
 }
@@ -223,11 +227,16 @@
 
 /*Nosotros*/
 
+.fondo-nosotros{
+    background-image: url(/img/Fondo\ Nosotros.png);
+}
+
 .nuestra{
     font-family: 'Martian Mono', monospace;
     text-align: center;
     padding: 40px;
-
+    
+    
 }
 
 #card-card{
@@ -408,6 +417,7 @@
 
 
 
+
 /* Formulario de Contactos */
 
 
@@ -430,3 +440,9 @@
    padding: 10px 5px;
 }
 
+
+/* Espacios */
+
+.body-espacios{
+    background-color: #eb252d;
+}
