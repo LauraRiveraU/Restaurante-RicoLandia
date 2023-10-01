@@ -241,7 +241,10 @@
 
 #card-card{
     font-family: 'Martian Mono', monospace;
+    padding: 30px;
 }
+
+
 
 /*Contactanos*/
 
@@ -443,6 +446,21 @@
 
 /* Espacios */
 
-.body-espacios{
-    background-color: #eb252d;
+.titulo-zonapet{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo-zonaparque{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-minigranja{
+    padding-top: 20px;
+    margin-left: 250px;
+    width: 100%;
+    
 }
