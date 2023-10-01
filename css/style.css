@@ -111,9 +111,11 @@
     margin-top: 60px;
     /*margin: 15px auto;
      background-color: #72d2ec;
-     background-image: url(/img/FondoContacto.png);*/
+     background-image: url(/img/FondoContacto.png);
+      background-color: #4aaf45;*/
      background-size: cover;
-     background-color: #4aaf45;
+     background-image: url(/img/Fondo\ Nosotros.png);
+    
      padding: 30px;
 }
 
@@ -248,6 +250,9 @@
 
 /*Contactanos*/
 
+
+
+
 .r-sociales{
     text-align: center;
     padding: 20px;
@@ -258,6 +263,7 @@
     width: 200px;
     padding: 40px;
 }
+
 
 /* Slider Contactos
 
@@ -428,8 +434,9 @@
    width: 100%;
    text-align: center;
    margin: 0 auto;
-   background-color: #4aaf45;
+ 
    padding: 30px;
+   
 }
 
 #ContactoS h2, label{
@@ -446,21 +453,50 @@
 
 /* Espacios */
 
+.fondo-espacios1{
+    background-image: url(/img/Fondo\ carta.png);
+}
+
+.fondo-espacios2{
+    background-image: url(/img/Fondo\ carta.png);
+}
+
+.fondo-espacios3{
+    background-image: url(/img/Fondo\ carta.png);
+}
+
 .titulo-zonapet{
     text-align: center;
     padding: 15px;
     font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+
+}
+   
+.titulo-zonaminigranja{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
 }
 
 .titulo-zonaparque{
     text-align: center;
     padding: 15px;
     font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
 }
+
+.card-parque{
+    padding: 20px;
+}
+
 
 .card-minigranja{
     padding-top: 20px;
     margin-left: 250px;
     width: 100%;
-    
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px;
 }
